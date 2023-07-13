@@ -36,8 +36,8 @@ Before running the script, modify the following variables in the script:
 
 2. Run the shell script by executing the following command:
 
- ```bash
- ./launch_prestashop.sh
+    ```bash
+    ./launch_prestashop.sh
 
 The script will launch the application server and database server instances, wait for them to be running, install PrestaShop on both servers, and update the configuration file with the database server details. Once the installation is complete, it will display the URLs to access the application and the database server.
 
